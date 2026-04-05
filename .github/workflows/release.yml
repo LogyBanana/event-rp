@@ -1,0 +1,47 @@
+name: Auto Release
+
+on:
+  push:
+    branches:
+      - main  # or master, or whatever your branch is
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get next version
+        id: version
+        run: |
+          # Fetch all tags
+          git fetch --tags
+
+          # Get the latest tag that matches v<number>, default to v0 if none
+          LATEST=$(git tag --list 'v[0-9]*' | sort -V | tail -n 1)
+          if [ -z "$LATEST" ]; then
+            NEXT="v1"
+          else
+            NUM="${LATEST#v}"
+            NEXT="v$((NUM + 1))"
+          fi
+
+          echo "tag=$NEXT" >> $GITHUB_OUTPUT
+
+      - name: Create zip (repo root at zip root, no parent folder)
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          zip -r repo.zip . \
+            --exclude "*.git*" \
+            --exclude ".github/*"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: ${{ steps.version.outputs.tag }}
+          files: repo.zip
