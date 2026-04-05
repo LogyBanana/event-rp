@@ -1,4 +1,4 @@
-name: Auto Release
+name: Zip up the pack
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Get next version
+      - name: Create the version tag
         id: version
         run: |
           # Fetch all tags
@@ -32,10 +32,10 @@ jobs:
 
           echo "tag=$NEXT" >> $GITHUB_OUTPUT
 
-      - name: Create zip (repo root at zip root, no parent folder)
+      - name: Zip up pack
         run: |
           cd "$GITHUB_WORKSPACE"
-          zip -r repo.zip . \
+          zip -r pack.zip . \
             --exclude "*.git*" \
             --exclude ".github/*"
 
