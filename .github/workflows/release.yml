@@ -1,13 +1,16 @@
 name: Zip up the pack
+
 on:
   push:
     branches:
       - main
+
 jobs:
   release:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -16,6 +19,7 @@ jobs:
         id: version
         run: |
           git fetch --tags
+
           LATEST=$(git tag --list 'v[0-9]*' | sort -V | tail -n 1)
           if [ -z "$LATEST" ]; then
             NEXT="v1"
@@ -23,6 +27,7 @@ jobs:
             NUM="${LATEST#v}"
             NEXT="v$((NUM + 1))"
           fi
+
           echo "tag=$NEXT" >> $GITHUB_OUTPUT
 
       - name: Zip up pack
@@ -32,16 +37,9 @@ jobs:
             --exclude "*.git*" \
             --exclude ".github/*"
 
-      - name: Generate hash
-        id: hash
-        run: |
-          HASH=$(sha256sum pack.zip | awk '{ print $1 }')
-          echo "sha256=$HASH" >> $GITHUB_OUTPUT
-
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
           name: ${{ steps.version.outputs.tag }}
-          body: "SHA256: `${{ steps.hash.outputs.sha256 }}`"
           files: pack.zip
