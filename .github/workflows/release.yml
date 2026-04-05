@@ -44,4 +44,4 @@ jobs:
         with:
           tag_name: ${{ steps.version.outputs.tag }}
           name: ${{ steps.version.outputs.tag }}
-          files: repo.zip
+          files: pack.zip
