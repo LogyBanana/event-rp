@@ -1,32 +1,11 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
-	"textures": {
-		"0": "item/slot",
-		"particle": "item/slot"
-	},
-	"elements": [
-		{
-			"from": [0, 0, 0],
-			"to": [16, 1, 16],
-			"faces": {
-				"north": {"uv": [0, 1, 16, 2], "texture": "#0"},
-				"east": {"uv": [0, 1, 16, 2], "texture": "#0"},
-				"south": {"uv": [0, 1, 16, 2], "texture": "#0"},
-				"west": {"uv": [0, 1, 16, 2], "texture": "#0"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
-			}
-		}
-	],
+  "parent": "item/generated",
 	"display": {
-		"thirdperson_righthand": {
-			"translation": [0, 8, 0],
-			"scale": [4, 0.17, 4]
-		},
 		"gui": {
-			"rotation": [90, 0, 0],
-			"scale": [1.5, 1, 1.5]
+			"scale": [1.12, 1.12, 1]
 		}
-	}
+	},
+  "textures": {
+    "layer0": "item/slot"
+  }
 }
