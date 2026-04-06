@@ -11,7 +11,7 @@
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/inventoryslot"
+          "model": "minecraft:item/slot"
         }
     }
     ]
