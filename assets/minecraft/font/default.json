@@ -5,7 +5,7 @@
 		{
       			"type": "bitmap",
      			"file": "minecraft:font/best_logo_ever.png",
-      			"ascent": 8,
+      			"ascent": 16,
       			"height": 32,
       			"chars": ["\uE836"]
     	}
