@@ -4,10 +4,10 @@
 
 		{
       			"type": "bitmap",
-     			"file": "minecraft:font/leave.png",
-      			"ascent": 13,
-      			"height": 22,
+     			"file": "minecraft:font/best_logo_ever.png",
+      			"ascent": 8,
+      			"height": 16,
       			"chars": ["\uE836"]
-    		}
+    	}
 	]
 }
