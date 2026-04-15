@@ -1,39 +1,57 @@
 {
-  "pack": {
-    "pack_format": 75,
-    "min_format": 75,
-    "max_format": 79,
-    "description": [
-      {"text": "ᴛ", "color": "#0300FF", "bold": true},
-      {"text": "ʜ", "color": "#004DEF", "bold": true},
-      {"text": "ᴇ", "color": "#0067E3", "bold": true},
-      {"text": " ", "color": "#0087CF", "bold": true},
-      {"text": "ʙ", "color": "#0087CF", "bold": true},
-      {"text": "ᴇ", "color": "#0093C6", "bold": true},
-      {"text": "ꜱ", "color": "#009EBE", "bold": true},
-      {"text": "ᴛ", "color": "#00A8B5", "bold": true},
-      {"text": " ", "color": "#00BAA2", "bold": true},
-      {"text": "ᴇ", "color": "#00BAA2", "bold": true},
-      {"text": "ᴠ", "color": "#00C299", "bold": true},
-      {"text": "ᴇ", "color": "#00C990", "bold": true},
-      {"text": "ɴ", "color": "#00D088", "bold": true},
-      {"text": "ᴛ", "color": "#30D782", "bold": true},
-      {"text": " ", "color": "#94E37E", "bold": true},
-      {"text": "ʀ", "color": "#94E37E", "bold": true},
-      {"text": "ᴘ", "color": "#9AE57A", "bold": true},
-      {"text": "\n", "color": "#A7E971", "bold": true},
-      {"text": "ᴛ", "color": "#A7E971", "bold": true},
-      {"text": "ʀ", "color": "#ADEA6D", "bold": true},
-      {"text": "ᴜ", "color": "#B4EC68", "bold": true},
-      {"text": "ꜱ", "color": "#BBEE63", "bold": true},
-      {"text": "ᴛ", "color": "#C2EF5D", "bold": true},
-      {"text": " ", "color": "#D0F252", "bold": true},
-      {"text": "ᴍ", "color": "#D0F252", "bold": true},
-      {"text": "ᴇ", "color": "#D7F34C", "bold": true},
-      {"text": " ", "color": "#E6F63E", "bold": true},
-      {"text": "ʙ", "color": "#E6F63E", "bold": true},
-      {"text": "ʀ", "color": "#EEF737", "bold": true},
-      {"text": "ᴏ", "color": "#F5F82F", "bold": true}
-    ]
-  }
+    "pack": {
+        "description": {
+            "text": "",
+            "extra": [
+                {
+                    "text": "Test Effects CE",
+                    "bold": true,
+                    "color": "#F0F020"
+                },
+                "\n",
+                {
+                    "text": "1.21.5-11",
+                    "color": "gray"
+                },
+                {
+                    "text": " — ",
+                    "color": "black"
+                },
+                {
+                    "text": "2025-11-23",
+                    "color": "dark_gray"
+                }
+            ]
+        },
+        "pack_format": 55,
+		"supported_formats": [55, 75],
+		"min_format": 55,
+		"max_format": 75
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": 55,
+                "directory": "overlay_1_21_5"
+            },
+            {
+                "formats": 63,
+				"min_format": 63,
+				"max_format": 63,
+                "directory": "overlay_1_21_6"
+            },
+            {
+                "formats": 64,
+				"min_format": 64,
+				"max_format": 64,
+                "directory": "overlay_1_21_7"
+            },
+            {
+				"formats": [65, 75],
+				"min_format": 65,
+				"max_format": 75,
+				"directory": "overlay_1_21_9"
+			}
+        ]
+    }
 }

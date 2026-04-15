@@ -1,0 +1,112 @@
+{
+    "blend": {
+        "func": "add",
+        "srcrgb": "srcalpha",
+        "dstrgb": "1-srcalpha"
+    },
+    "vertexShader": "core/rendertype_text",
+    "fragmentShader": "core/rendertype_text",
+    "samplers": [
+        {
+            "name": "Sampler0"
+        },
+        {
+            "name": "Sampler2"
+        }
+    ],
+    "uniforms": [
+        {
+            "name": "ModelViewMat",
+            "type": "mat4",
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "ProjMat",
+            "type": "mat4",
+            "values": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        {
+            "name": "ColorModulator",
+            "type": "vec4",
+            "values": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "name": "FogStart",
+            "type": "float",
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "FogEnd",
+            "type": "float",
+            "values": [
+                1.0
+            ]
+        },
+        {
+            "name": "FogColor",
+            "type": "vec4",
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "GameTime",
+            "type": "float",
+            "values": [
+                0.0
+            ]
+        },
+        {
+            "name": "ScreenSize",
+            "type": "float",
+            "values": [
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}
