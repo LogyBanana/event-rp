@@ -29,6 +29,13 @@
 				"ascent": 8,
       			"height": 8,
       			"chars": ["\uE003"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/fade.png",
+				"ascent": 60,
+      			"height": 130,
+      			"chars": ["\uE999"]
 		}
 	]
 }
