@@ -35,10 +35,10 @@
                 {"text": "ᴏ", "color": "#F5F82F", "bold": true}
             ]
         },
-        "pack_format": 55,
-        "supported_formats": [55, 75],
+        "pack_format": 84,
+        "supported_formats": [55, 84],
         "min_format": 55,
-        "max_format": 75
+        "max_format": 84
     },
     "overlays": {
         "entries": [
@@ -63,6 +63,12 @@
                 "min_format": 65,
                 "max_format": 75,
                 "directory": "overlay_1_21_9"
+            },
+	    {
+                "formats": [76, 84],
+                "min_format": 76,
+                "max_format": 84,
+                "directory": "overlay_26_1"
             }
         ]
     }

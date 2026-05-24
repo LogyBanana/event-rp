@@ -1,5 +1,3 @@
-#version 150
-
 #moj_import <spheya_utils.glsl>
 #moj_import <spheya_packs.glsl>
 

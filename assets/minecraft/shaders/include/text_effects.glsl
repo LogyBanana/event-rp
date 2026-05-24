@@ -1,5 +1,3 @@
-#version 150
-
 #if defined(RENDERTYPE_TEXT) || defined(RENDERTYPE_TEXT_INTENSITY)
 
 // Structs & Globals
@@ -708,6 +706,21 @@ bool applySpheyaPack9()
     vctfx_isShadow = fract(Position.z) < 0.01 ? 1.0 : 0.0;
     vctfx_applyTextEffect = 1.0;
     vctfx_changedScale = 0.0;
+
+    // Initialisation complète de textData pour éviter les warnings "used before initialized"
+    textData.color = vec4(0.0);
+    textData.topColor = vec4(0.0);
+    textData.backColor = vec4(0.0);
+    textData.position = vec2(0.0);
+    textData.characterPosition = vec2(0.0);
+    textData.localPosition = vec2(0.0);
+    textData.uv = vec2(0.0);
+    textData.uvMin = vec2(0.0);
+    textData.uvMax = vec2(0.0);
+    textData.uvCenter = vec2(0.0);
+    textData.isShadow = false;
+    textData.doTextureLookup = true;
+    textData.shouldScale = false;
 
     textData.isShadow = vctfx_isShadow > 0.5;
     textData.color = Color;

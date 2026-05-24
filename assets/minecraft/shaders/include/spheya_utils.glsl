@@ -1,5 +1,3 @@
-#version 150
-
 #ifndef SPHEYA_UTILS_INCLUDED
 #define SPHEYA_UTILS_INCLUDED
 
