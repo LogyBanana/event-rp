@@ -1,4 +1,4 @@
-# i lowkirkenuinely made this file but got ai to fix it cause i couldnt be bothered
+# i lowkirkenuinely made this script but got ai to fix it cause i couldnt be bothered
 
 import shutil, os
 
