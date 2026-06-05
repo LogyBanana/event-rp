@@ -13,7 +13,70 @@
           "type": "minecraft:model",
           "model": "minecraft:item/slot"
         }
-    }
+    },
+    {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/nana_corp"
+        }
+    },
+    {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/id_card_gate"
+        }
+    },
+    {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/id_card_gate_open"
+        }
+    },
+    {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/structure_helps"
+        }
+    },
+    {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/ladder_custom"
+        }
+    },
+    {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/light_big"
+        }
+    },
+    {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/light_small"
+        }
+    },
+    {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/nana_corp_sign"
+        }
+    },
+    {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/computer"
+        }
+      }
     ]
   }
 }
