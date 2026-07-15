@@ -157,8 +157,8 @@
 		},
 		"pack_format": 84,
 		"supported_formats": [55, 84],
-		"min_format": 69,
-		"max_format": 9999999
+		"min_format": 84,
+		"max_format": 84
 	},
 	"overlays": {
 		"entries": [

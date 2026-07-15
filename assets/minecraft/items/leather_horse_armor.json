@@ -18,6 +18,14 @@
           "model": "123bigbanana:custom/couch",
           "tints": [{ "type": "minecraft:dye", "default": 10511680 }]
         }
+      },
+      {
+        "when": "desk",
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/desk",
+          "tints": [{ "type": "minecraft:dye", "default": 10511680 }]
+        }
       }
     ],
     "fallback": {

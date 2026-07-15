@@ -1,0 +1,9 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"anim123bigbanana:cube": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": ["assets/anim123bigbanana/items/blueprint/cube/bone.json", "assets/anim123bigbanana/models/blueprint/cube/bone.json"]
+		}
+	}
+}

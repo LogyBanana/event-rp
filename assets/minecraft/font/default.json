@@ -32,6 +32,20 @@
 		},
 		{
 				"type": "bitmap",
+				"file": "minecraft:font/white_fade.png",
+				"ascent": 130,
+      			"height": 512,
+      			"chars": ["\uE997"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/purple_fade.png",
+				"ascent": 130,
+      			"height": 512,
+      			"chars": ["\uE998"]
+		},
+		{
+				"type": "bitmap",
 				"file": "minecraft:font/fade.png",
 				"ascent": 130,
       			"height": 512,

@@ -76,6 +76,34 @@
           "type": "minecraft:model",
           "model": "123bigbanana:custom/computer"
         }
+      },
+    {
+        "threshold": 11,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/teleporter"
+        }
+      },
+    {
+        "threshold": 12,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/the_cube"
+        }
+      },
+    {
+        "threshold": 13,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/weird_pillar"
+        }
+      },
+    {
+        "threshold": 14,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/lab_tv"
+        }
       }
     ]
   }
