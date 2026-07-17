@@ -11,24 +11,59 @@
     	},
 		{
 				"type": "bitmap",
-				"file": "minecraft:font/red.png",
+				"file": "minecraft:font/teams/red.png",
 				"ascent": 8,
       			"height": 8,
       			"chars": ["\uE001"]
 		},
 		{
 				"type": "bitmap",
-				"file": "minecraft:font/orange.png",
+				"file": "minecraft:font/teams/orange.png",
 				"ascent": 8,
       			"height": 8,
       			"chars": ["\uE002"]
 		},
 		{
 				"type": "bitmap",
-				"file": "minecraft:font/yellow.png",
+				"file": "minecraft:font/teams/yellow.png",
 				"ascent": 8,
       			"height": 8,
       			"chars": ["\uE003"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/teams/lime.png",
+				"ascent": 8,
+      			"height": 8,
+      			"chars": ["\uE004"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/teams/cyan.png",
+				"ascent": 8,
+      			"height": 8,
+      			"chars": ["\uE005"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/teams/blue.png",
+				"ascent": 8,
+      			"height": 8,
+      			"chars": ["\uE006"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/teams/purple.png",
+				"ascent": 8,
+      			"height": 8,
+      			"chars": ["\uE007"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/teams/pink.png",
+				"ascent": 8,
+      			"height": 8,
+      			"chars": ["\uE008"]
 		},
 		{
 				"type": "bitmap",

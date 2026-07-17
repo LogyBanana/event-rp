@@ -1,0 +1,30 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                " ": 4
+            }
+        },
+        {
+            "type": "ttf",
+            "file": "123bigbanana:pinch.ttf",
+            "shift": [
+                0.0,
+                -0.5
+            ],
+            "size": 7,
+            "oversample": 4
+        },
+        {
+            "type": "ttf",
+            "file": "123bigbanana:pinch.ttf",
+            "shift": [
+                0.0,
+                2.25
+            ],
+            "size": 7,
+            "oversample": 4
+        }
+    ]
+}
