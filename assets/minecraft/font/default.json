@@ -67,6 +67,27 @@
 		},
 		{
 				"type": "bitmap",
+				"file": "minecraft:font/text_bg_left.png",
+				"ascent": 8,
+      			"height": 12,
+      			"chars": ["\uE009"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/text_bg_extender.png",
+				"ascent": 8,
+      			"height": 12,
+      			"chars": ["\uE010"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/text_bg_right.png",
+				"ascent": 8,
+      			"height": 12,
+      			"chars": ["\uE011"]
+		},
+		{
+				"type": "bitmap",
 				"file": "minecraft:font/white_fade.png",
 				"ascent": 130,
       			"height": 512,
