@@ -7,6 +7,8 @@
   "menu.disconnect": "ᴅɪꜱᴄᴏɴɴᴇᴄᴛ",
   "container.crafting": "§fᴄʀᴀꜰᴛɪɴɢ",
   "container.inventory": "§fɪɴᴠᴇɴᴛᴏʀʏ",
-  "menu.game": "",
-  "resourcePack.server.name": ""
+  "menu.game": "󏿾",
+  "resourcePack.server.name": "",
+  "menu.loadingLevel": "󏿾",
+  "menu.generatingLevel": "󏿾"
 }

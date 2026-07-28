@@ -88,6 +88,27 @@
 		},
 		{
 				"type": "bitmap",
+				"file": "minecraft:font/brand_assets/logo_left.png",
+				"ascent": 8,
+      			"height": 64,
+      			"chars": ["\uE012"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/brand_assets/logo_right.png",
+				"ascent": 8,
+      			"height": 64,
+      			"chars": ["\uE013"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/brand_assets/123bigbanana_icon_no_bg.png",
+				"ascent": 8,
+      			"height": 10,
+      			"chars": ["\uE014"]
+		},
+		{
+				"type": "bitmap",
 				"file": "minecraft:font/white_fade.png",
 				"ascent": 130,
       			"height": 512,
