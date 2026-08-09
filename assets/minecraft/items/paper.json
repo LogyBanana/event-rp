@@ -104,6 +104,13 @@
           "type": "minecraft:model",
           "model": "123bigbanana:custom/lab_tv"
         }
+      },
+    {
+        "threshold": 15,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:paintings/painting_1"
+        }
       }
     ]
   }
