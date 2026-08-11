@@ -1,6 +1,6 @@
 #version 150
 
-#moj_import <fog.glsl>
+#moj_import <minecraft:fog.glsl>
 
 uniform mat4 ProjMat;
 uniform mat4 ModelViewMat;
@@ -39,7 +39,7 @@ out vec3 fshGlyphT2;
 out vec3 fshGlyphT3;
 out float fshDisplayAlpha;
 
-#moj_import <text_effects_utils.glsl>
+#moj_import <minecraft:text_effects_utils.glsl>
 
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);

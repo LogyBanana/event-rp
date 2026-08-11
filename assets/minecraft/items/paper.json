@@ -111,6 +111,20 @@
           "type": "minecraft:model",
           "model": "123bigbanana:paintings/painting_1"
         }
+      },
+    {
+        "threshold": 16,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:paintings/painting_controversial"
+        }
+      },
+    {
+        "threshold": 17,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:paintings/painting_uncontroversial"
+        }
       }
     ]
   }

@@ -109,6 +109,13 @@
 		},
 		{
 				"type": "bitmap",
+				"file": "minecraft:font/event_icon.png",
+				"ascent": 8,
+      			"height": 10,
+      			"chars": ["\uE015"]
+		},
+		{
+				"type": "bitmap",
 				"file": "minecraft:font/white_fade.png",
 				"ascent": 130,
       			"height": 512,

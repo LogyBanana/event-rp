@@ -1,6 +1,6 @@
 #version 150
 
-#moj_import <fog.glsl>
+#moj_import <minecraft:fog.glsl>
 
 uniform float GameTime;
 uniform vec4 ColorModulator;
@@ -8,17 +8,17 @@ uniform float FogStart;
 uniform float FogEnd;
 uniform vec4 FogColor;
 
-#moj_import <text_data.glsl>
-#moj_import <spin_effect.glsl>
-#moj_import <outline_effect.glsl>
-#moj_import <hatch_effect.glsl>
-#moj_import <neon_effect.glsl>
-#moj_import <split_effect.glsl>
-#moj_import <chromatic_effect.glsl>
-#moj_import <extrude_effect.glsl>
-#moj_import <noise_effect.glsl>
-#moj_import <liquid_effect.glsl>
-#moj_import <water_effect.glsl>
+#moj_import <minecraft:text_data.glsl>
+#moj_import <minecraft:spin_effect.glsl>
+#moj_import <minecraft:outline_effect.glsl>
+#moj_import <minecraft:hatch_effect.glsl>
+#moj_import <minecraft:neon_effect.glsl>
+#moj_import <minecraft:split_effect.glsl>
+#moj_import <minecraft:chromatic_effect.glsl>
+#moj_import <minecraft:extrude_effect.glsl>
+#moj_import <minecraft:noise_effect.glsl>
+#moj_import <minecraft:liquid_effect.glsl>
+#moj_import <minecraft:water_effect.glsl>
 
 uniform sampler2D Sampler0;
 

@@ -160,35 +160,26 @@
 		"max_format": 84
 	},
 	"overlays": {
-		"entries": [
-			{
-				"formats": 55,
-				"directory": "overlay_1_21_5"
-			},
-			{
-				"formats": 63,
-				"min_format": 63,
-				"max_format": 63,
-				"directory": "overlay_1_21_6"
-			},
-			{
-				"formats": 64,
-				"min_format": 64,
-				"max_format": 64,
-				"directory": "overlay_1_21_7"
-			},
-			{
-				"formats": [65, 75],
-				"min_format": 65,
-				"max_format": 75,
-				"directory": "overlay_1_21_9"
-			},
-			{
-				"formats": [76, 84],
-				"min_format": 76,
-				"max_format": 84,
-				"directory": "overlay_26_1"
-			}
-		]
-	}
+    "entries": [
+      {
+        "formats": { "min_inclusive": 36, "max_inclusive": 56 },
+        "min_format": 36,
+        "max_format": 56,
+        "directory": "1_21_2"
+      },
+      {
+        "formats": { "min_inclusive": 57, "max_inclusive": 100 },
+        "min_format": 57,
+        "max_format": 100,
+        "directory": "1_21_6"
+      },
+      {
+        "formats": { "min_inclusive": 76, "max_inclusive": 100 },
+        "min_format": 76,
+        "max_format": 100,
+        "directory": "26_1"
+      }
+    ]
+  }
+
 }
