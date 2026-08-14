@@ -5,6 +5,11 @@
 // Usage: TEXT_EFFECT(rgb(R, G, B)) { apply_effect(); }   // or rgb(0xRRGGBB)
 // ============================================================
 
+// the 123bigbanana welcome title gradient (#6E6E4E)
+TEXT_EFFECT(rgb(110, 110, 78)) {
+    apply_dynamic_gradient(rgb(2, 173, 218), rgb(4, 9, 253), 2.0, 500.0);
+}
+
 // Shake (#F8F854) - Red
 TEXT_EFFECT_WITH_SHADOW(rgb(248, 248, 84)) {
     apply_shake();
@@ -89,7 +94,7 @@ TEXT_EFFECT(rgb(248, 248, 136)) {
 
 // Dynamic Gradient: Red → Blue, Right (#F8F88C)
 TEXT_EFFECT(rgb(248, 248, 140)) {
-    apply_dynamic_gradient(rgb(2, 173, 218), rgb(4, 9, 253), 2.0, 500.0);
+    apply_dynamic_gradient(rgb(218, 2, 2), rgb(4, 9, 253), 2.0, 500.0);
 }
 
 // Dynamic Gradient: Green → Yellow, Down (#F8F890)
