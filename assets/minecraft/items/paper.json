@@ -125,6 +125,34 @@
           "type": "minecraft:model",
           "model": "123bigbanana:paintings/painting_uncontroversial"
         }
+      },
+    {
+        "threshold": 18,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/green_jumppad"
+        }
+      },
+    {
+        "threshold": 19,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/red_jumppad"
+        }
+      },
+    {
+        "threshold": 20,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/orange_jumppad"
+        }
+      },
+    {
+        "threshold": 21,
+        "model": {
+          "type": "minecraft:model",
+          "model": "123bigbanana:custom/blue_jumppad"
+        }
       }
     ]
   }

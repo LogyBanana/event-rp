@@ -68,21 +68,21 @@
 		{
 				"type": "bitmap",
 				"file": "minecraft:font/text_bg_left.png",
-				"ascent": 8,
+				"ascent": 9,
       			"height": 12,
       			"chars": ["\uE009"]
 		},
 		{
 				"type": "bitmap",
 				"file": "minecraft:font/text_bg_extender.png",
-				"ascent": 8,
+				"ascent": 9,
       			"height": 12,
       			"chars": ["\uE010"]
 		},
 		{
 				"type": "bitmap",
 				"file": "minecraft:font/text_bg_right.png",
-				"ascent": 8,
+				"ascent": 9,
       			"height": 12,
       			"chars": ["\uE011"]
 		},
@@ -113,6 +113,13 @@
 				"ascent": 8,
       			"height": 10,
       			"chars": ["\uE015"]
+		},
+		{
+				"type": "bitmap",
+				"file": "minecraft:font/coin.png",
+				"ascent": 8,
+      			"height": 8,
+      			"chars": ["\uE016"]
 		},
 		{
 				"type": "bitmap",
